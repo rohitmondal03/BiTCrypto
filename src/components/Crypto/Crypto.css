@@ -1,0 +1,101 @@
+.crypto {
+    background: rgb(108, 204, 216);
+    background: linear-gradient(360deg, rgb(255, 28, 88) 0%, rgb(209, 7, 205) 100%);
+    padding: 3rem;
+    margin-top: 2rem;
+}
+
+.crypto-headings {
+    margin: 2rem auto;
+    text-align: center;
+    font-size: 2rem;
+    color: white;
+}
+
+.crypto-headings h2 {
+    text-decoration: underline;
+    color: black;
+    /* margin-top: 1.5rem; */
+}
+
+.crypto-abt {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-top: 3rem;
+}
+
+.crypto-abt .crypto-prices-left {
+    margin: 0 4rem;
+}
+
+.crypto-abt .crypto-prices-right{
+    display: flex;
+    justify-content: space-between;
+}
+
+.crypto-abt .crypto-prices-right h4{
+    font-size: 2rem;
+    text-align: center;
+    margin: 0 4rem;
+}
+
+
+
+@media only screen and (max-width: 1100px){
+    
+    .crypto-abt .crypto-prices-right h4 {
+        margin: 0 3rem;
+        font-size: 1.7rem;
+    }
+    
+    .crypto-abt .crypto-prices-left h4 {
+        font-size: 1.7rem;
+    }
+
+}
+
+@media only screen and (max-width: 860px) {
+
+    .crypto-headings{
+        font-size: 1.7rem;
+    }
+
+    .crypto-abt .crypto-prices-right h4 {
+        margin: 0 2rem;
+        font-size: 1.7rem;
+    }
+    
+    .crypto-abt .crypto-prices-left h4 {
+        font-size: 1.7rem;
+    }
+}
+
+@media only screen and (max-width: 650px) {
+
+    .crypto-headings{
+        font-size: 1.2rem;
+    }
+
+    .crypto-abt .crypto-prices-right h4 {
+        margin: 0 1rem;
+        font-size: 1rem;
+    }
+    
+    .crypto-abt .crypto-prices-left h4 {
+        font-size: 1rem;
+    }
+
+}
+
+@media only screen and (max-width: 500px) {
+
+    .crypto-abt .crypto-prices-right h4 {
+        margin: 0 .7rem;
+        font-size: .8rem;
+    }
+    
+    .crypto-abt .crypto-prices-left h4 {
+        font-size: .8rem;
+    }
+}

@@ -1,0 +1,91 @@
+.crypto_prices {
+    display: flex;
+    flex-direction: row;
+    flex-flow: colum;
+    justify-content: space-between;
+    align-items: center;
+    margin: 2rem auto;
+    font-size: 1.2rem;
+}
+
+.crypto_prices-left {
+    display: flex;
+    flex-direction: row;
+    margin: 0 2rem;
+}
+
+.crypto_prices-left img{
+    height: 32px;
+    width: 32px;
+    margin: 0 1rem;
+}
+
+.crypto_prices-right{
+    display: flex;
+    flex-direction: row;
+}
+
+.crypto_prices-right p{
+    margin: 0 5.5rem;
+}
+
+
+
+@media only screen and (max-width: 1100px) {
+    
+    .crypto_prices-right p{
+        margin: 0 4rem;
+    }
+
+}
+
+@media only screen and (max-width: 860px) {
+
+    .crypto_prices-right p{
+        margin: 0 3rem;
+        font-size: 1rem;
+    }
+}
+
+@media only screen and (max-width: 650px) {
+
+    .crypto_prices-left {
+        margin: 0 1rem;
+    }
+
+    .crypto_prices-right p{
+        margin: 0 2.2rem;
+        font-size: .8rem;
+    }
+}
+
+@media only screen and (max-width: 550px) {
+    .crypto_prices-left {
+        margin: 0 .1rem;
+    }
+
+    .crypto_prices-left p {
+        font-size: 1rem;
+    }
+
+    .crypto_prices-right p{
+        margin: 0 1.5rem;
+        font-size: .8rem;
+    }
+}
+
+
+@media only screen and (max-width: 500px) {
+    .crypto_prices-left {
+        margin: 0rem;
+    }
+
+    .crypto_prices-left p {
+        font-size: .8rem;
+    }
+
+    .crypto_prices-right p{
+        margin: 0 .6rem;
+        font-size: .8rem;
+    }
+}

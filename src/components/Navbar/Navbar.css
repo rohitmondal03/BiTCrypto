@@ -1,0 +1,79 @@
+/* @import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap'); */
+
+.navbar {
+    background: rgb(86, 76, 255);
+    background: linear-gradient(90deg, rgba(86, 76, 255, 1) 0%, rgba(255, 55, 55, 1) 100%);
+    padding: 2rem;
+    text-align: center;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+
+.navbar-content h1 {
+    color: rgb(255, 255, 255);
+    letter-spacing: .25rem;
+    font-size: 5rem;
+    margin-bottom: 1rem;
+}
+
+.navbar-content p {
+    font-weight: 800;
+    font-size: 1.5rem;
+}
+
+.navbar-logo img {
+    height: 400px;
+    width: 400px;
+    /* padding: 1rem; */
+    /* animation: ; */
+}
+
+
+/* MEDIA QUERIES */
+
+@media only screen and (max-width: 850px) {
+
+    .navbar {
+        flex-direction: column;
+    }
+
+    .navbar-content h1 {
+        margin-bottom: 0;
+    }
+
+    .navbar-logo img {
+        height: 282px;
+        width: 354px;
+    }
+}
+
+
+@media only screen and (max-width: 500px) {
+    
+    .navbar-content h1 {
+        font-size: 3rem;
+        margin-bottom: 1rem;
+    }
+
+    .navbar-logo img {
+        height: 200px;
+        width: 300px;
+    }
+
+    .navbar-content p {
+        font-size: 1.2rem;
+    }
+}
+
+@media only screen and (max-width: 300px) {
+
+    .navbar-content h1 {
+        font-size: 2rem;
+    }
+
+    .navbar-logo img {
+        width: 200px;
+    }
+}
